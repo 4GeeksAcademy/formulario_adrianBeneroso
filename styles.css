@@ -1,0 +1,53 @@
+
+.titulo-formulario{
+    padding-left: 5px;
+      display: flex;
+      justify-content: flex-start; /* Alinear horizontalmente al inicio */
+      align-items: center;         /* Alinear verticalmente al centro */
+    height: 40px;
+  }
+  
+  .message-alert{
+    margin-top: 15px;
+  }
+  
+  .textarea {
+      margin-top: 10px;
+      width: 100%;; /* Ancho en píxeles */
+      height: 200px; /* Altura en píxeles */
+      font-size: 16px; /* Tamaño de la fuente dentro del textarea */
+      
+      
+    }
+    .imagen-cards{
+      width: 30px;
+      height: 30px;
+    }
+    .options-cards{
+      width: 185px;
+      margin-top: 15px;
+      border: 1px solid;
+      border-radius: 5px;
+      background-color: gray;
+    }
+    .options-cards input{
+     margin-left: 5px;
+    }
+   .footer-textArea{
+    color: grey;
+    font-size: 12px;
+   }
+  
+   /* QUITAR FLECHAS DE IMPUT NUMERO */
+   input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+  
+  input[type=number] { -moz-appearance:textfield; }
+   
+   
+  
+  
+  
